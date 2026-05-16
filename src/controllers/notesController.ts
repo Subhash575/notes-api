@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { prisma } from "../lib/prisma";
+import { prisma } from "../lib/prisma.js";
 
 // ─── GET /notes ───────────────────────────────────────────────
 // Returns all notes owned by OR shared with the authenticated user

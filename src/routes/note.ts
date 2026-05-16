@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { verifyToken } from "../middleware/auth";
+import { verifyToken } from "../middleware/auth.js";
 import {
   getAllNotes,
   getNoteById,
