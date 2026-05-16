@@ -2,7 +2,7 @@
 
 A multi-user notes backend service built with Node.js, TypeScript, Prisma 7, and PostgreSQL. Think backend for Google Keep or Apple Notes.
 
-**Live URL:** https://notes-api-01.onrender.com
+**Live URL:** https://notes-api-01.onrender.com/about
 
 ---
 
