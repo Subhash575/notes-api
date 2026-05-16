@@ -7,8 +7,8 @@ const app = express();
 app.use(express.json()); // parse incoming JSON bodies
 
 // Routes
-import authRoutes from "./routes/auth";
-import notesRoutes from "./routes/note";
+import authRoutes from "./routes/auth.js";
+import notesRoutes from "./routes/note.js";
 import metaRoutes from "./routes/meta.js";
 import searchRoutes from "./routes/search.js";
 
