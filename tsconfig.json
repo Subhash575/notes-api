@@ -11,6 +11,6 @@
     "skipLibCheck": true,
     "resolveJsonModule": true
   },
-  "include": ["src/**/*", "prisma.config.ts"],
-  "exclude": ["node_modules", "dist", "generated"]
+  "include": ["src/**/*", "generated/**/*", "prisma.config.ts"],
+  "exclude": ["node_modules", "dist"]
 }
