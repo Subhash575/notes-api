@@ -7,7 +7,7 @@ import {
   updateNote,
   deleteNote,
   shareNote,
-} from "../controllers/notesController";
+} from "../controllers/notesController.js";
 import {
   addLink,
   getLinks,
